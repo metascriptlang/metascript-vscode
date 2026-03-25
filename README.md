@@ -136,7 +136,6 @@ To install the MetaScript compiler:
 ```bash
 git clone https://github.com/metascriptlang/metascript
 cd metascript
-zig build install
 ```
 
 ## Server Discovery
@@ -144,8 +143,8 @@ zig build install
 The extension searches for `msc` in the following order:
 
 1. `metascript.serverPath` setting (supports `~` expansion)
-2. Workspace directory: `./zig-out/bin/msc`, `./bin/msc`, `./node_modules/.bin/msc`
-3. Extension directory: `./bin/msc`
+2. Workspace directory: `./zig-out/bin/ms`, `./bin/ms`, `./node_modules/.bin/ms`
+3. Extension directory: `./bin/ms`
 4. System PATH
 
 ## Troubleshooting
